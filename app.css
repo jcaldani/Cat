@@ -1,0 +1,123 @@
+:root{
+	--purple:#3e049;
+}
+head
+
+body{
+	color:var(purple);
+	font-family: sans-serif;
+	overflow: hidden;
+	height: 100%
+}
+
+.topBox {
+	height: 200px;
+	width: 100px;
+}
+
+.screenBox {
+
+	width: 212px;
+	height: 210px;
+	margin: auto;
+	border: 10px solid rgba(0, 0, 0, 0);
+	
+}
+
+.dialogueBox {
+
+	width: 300px;
+	height: 100px;
+	border: 10px solid rgba(153, 38, 105, 0.568);
+	padding: auto;
+	margin-left: auto;
+	box-sizing: border-box;
+}
+
+.dialogueBoxText {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font: Helvetica;
+	font-size: large;
+}
+
+.optionBox {
+	width: 300px;
+	height: 250px;
+	border: 10px solid rgba(153, 38, 105, 0.568);
+	padding: auto;
+	margin-left: auto;
+	box-sizing: border-box;
+}
+
+.container{
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column; 
+	margin: auto;
+	padding-left: auto;
+	
+}
+
+#optionboard{
+	width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+
+}
+
+#dialogueboard {
+	width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#dialogueboardtext {
+	margin: auto;
+	padding: auto;
+}
+
+/* .attackBtn{
+	height: auto;
+	width: auto;
+	background-size: cover;
+	background-color: transparent;
+	border-color: transparent;
+	cursor: pointer;
+	margin: auto;
+	padding: auto;
+} */
+
+.buttonStyle {
+	width: 140px;
+	height: 80px;
+	color: purple;
+	margin: auto;
+	padding: 5px;
+	display: flex;
+	border: solid;
+	border-color: black;
+	border-style: solid;
+	align-items: center;
+	
+}
+
+.buttonText {
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font: Arial;
+	font-size: 30px; 
+	text-align: center;
+}
+
+.optionboard > attackBtn:hover {
+	
+	translate: translateY(3);
+
+}
+
