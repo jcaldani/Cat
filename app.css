@@ -112,6 +112,7 @@ body{
 
 .buttonStyle:hover {
 	background-color: rgb(182, 107, 166);  
+	cursor:pointer;
 }
 
 .buttonText {

@@ -13,6 +13,10 @@ btnOne.addEventListener("click", function () {
 		setTimeout(() => {
 			gato.src = "gato2.gif";
 		  }, "3000");
+
+		  setTimeout(() => {
+			texto1.textContent = "WHAT WILL YOU DO NEXT?";
+		  }, "4000");  
 		 
 		  
  });
@@ -24,6 +28,11 @@ btnTwo.addEventListener("click", function () {
 	setTimeout(() => {
 		gato.src = "gato2.gif";
 	  }, "3000");
+
+	setTimeout(() => {
+		texto1.textContent = "WHAT WILL YOU DO NEXT?";
+	}, "4000");  
+	 
 });
 
 btnThree.addEventListener("click", function () {
@@ -33,6 +42,11 @@ btnThree.addEventListener("click", function () {
 	setTimeout(() => {
 		gato.src = "gato2.gif";
 	  }, "3000");
+
+	setTimeout(() => {
+		texto1.textContent = "WHAT WILL YOU DO NEXT?";
+	  }, "4000");  
+	 
 });
 
 btnFour.addEventListener("click", function () {
@@ -42,4 +56,8 @@ btnFour.addEventListener("click", function () {
 	setTimeout(() => {
 		gato.src = "gato2.gif";
 	  }, "3000");
+
+	setTimeout(() => {
+		texto1.textContent = "WHAT WILL YOU DO NEXT?";
+	  }, "4000"); 
 });
