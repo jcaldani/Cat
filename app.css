@@ -32,6 +32,7 @@ body{
 	padding: auto;
 	margin-left: auto;
 	box-sizing: border-box;
+	border-style: groove;
 }
 
 .dialogueBoxText {
@@ -48,6 +49,7 @@ body{
 	padding: auto;
 	margin-left: auto;
 	box-sizing: border-box;
+	border-style: groove;
 }
 
 .container{
@@ -94,30 +96,35 @@ body{
 } */
 
 .buttonStyle {
-	width: 140px;
+	width: 150px;
 	height: 80px;
-	color: purple;
 	margin: auto;
-	padding: 5px;
 	display: flex;
 	border: solid;
-	border-color: black;
 	border-style: solid;
 	align-items: center;
+	border-radius: 50%;
+	display: table-cell;
+	background-color: rgba(223, 163, 210, 0.712);
+	border-color: rgb(61, 6, 47);
 	
 }
 
+.buttonStyle:hover {
+	background-color: rgb(182, 107, 166);  
+}
+
 .buttonText {
-	color: black;
+	color: rgb(61, 6, 47);
 	font-family: Arial, Helvetica, sans-serif;
-	font: Arial;
+	font: Arial; 
 	font-size: 30px; 
 	text-align: center;
 }
 
-.optionboard > attackBtn:hover {
+/* .optionboard > buttonStyle:hover {
 	
 	translate: translateY(3);
 
-}
+} */
 
