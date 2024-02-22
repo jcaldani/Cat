@@ -1,2 +1,2 @@
 # WGProject
-Updated project used to test out CSS, HTML and JS features. 
+Very small project used to test out CSS, HTML and JS features 
