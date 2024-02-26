@@ -1,2 +1,3 @@
 # WGProject
-Very small project used to test out CSS, HTML and JS features 
+This project is very small and outdated, it's missing various features regarding 
+responsive web design, but it showcases a very basic usage of JS, CSS & HTML. 
